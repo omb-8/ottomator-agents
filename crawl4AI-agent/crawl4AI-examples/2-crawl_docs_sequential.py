@@ -48,7 +48,7 @@ def get_pydantic_ai_docs_urls():
     Returns:
         List[str]: List of URLs
     """            
-    sitemap_url = "https://ai.pydantic.dev/sitemap.xml"
+    sitemap_url = "https://confluence.uwf.edu"
     try:
         response = requests.get(sitemap_url)
         response.raise_for_status()
