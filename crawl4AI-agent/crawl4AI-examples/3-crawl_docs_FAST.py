@@ -90,6 +90,9 @@ def get_pydantic_ai_docs_urls():
     Fetches all URLs from the Pydantic AI documentation.
     Uses the sitemap (https://ai.pydantic.dev/sitemap.xml) to get these URLs.
     
+    # NOTE: https://confluence.uwf.edu/sitemap.xml page not found.
+    # NOTE: https://confluence.uwf.edu/display/public/UWF+Public+Knowledge+Base/sitemap.xml page not found.
+    
     Returns:
         List[str]: List of URLs
     """            
